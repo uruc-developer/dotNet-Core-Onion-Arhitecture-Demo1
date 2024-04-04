@@ -6,8 +6,15 @@ using ProductApp.Domain.Entities;
 
 namespace ProductApp.Application.Interfaces.Repository
 {
-    public interface IProductRepository
+    // without generic repository
+    //public interface IProductRepository
+    //{
+    //    Task<List<Product>> GetAllProduct();
+    //    Task<Product> GetProductById(Guid Id);
+    //}
+
+    public interface IProductRepository : IGenericRepositoryAsync<Product>
     {
-        Task<List<Product>> GetAllProduct();
+
     }
 }
