@@ -1,10 +1,15 @@
 …or push an existing repository from the command line
 
+<TargetFramework>netcoreapp3.1</TargetFramework>
+
 git remote add origin ..remote_repo
 git branch -M main
 git push -u origin main
 
-
+Infrastructure, Persistence
+<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
 
 
 
