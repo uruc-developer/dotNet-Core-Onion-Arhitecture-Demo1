@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Product.Domain.Common
+namespace ProductApp.Domain.Common
 {
     public class BaseEntity
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Product.Application.Wrappers
+namespace ProductApp.Application.Wrappers
 {
     public class BaseResponse
     {
